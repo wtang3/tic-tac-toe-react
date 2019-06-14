@@ -5,21 +5,19 @@ import './board.css';
 class Board extends Component {
   render() {
     return (
-      <main>
-        <section class="board">
-          <BoardPosition></BoardPosition>
-          <BoardPosition></BoardPosition>
-          <BoardPosition></BoardPosition>
+      <section className="board">
+        <BoardPosition></BoardPosition>
+        <BoardPosition></BoardPosition>
+        <BoardPosition></BoardPosition>
 
-          <BoardPosition></BoardPosition>
-          <BoardPosition></BoardPosition>
-          <BoardPosition></BoardPosition>
+        <BoardPosition></BoardPosition>
+        <BoardPosition></BoardPosition>
+        <BoardPosition></BoardPosition>
 
-          <BoardPosition></BoardPosition>
-          <BoardPosition></BoardPosition>
-          <BoardPosition></BoardPosition>
-        </section>
-      </main>
+        <BoardPosition></BoardPosition>
+        <BoardPosition></BoardPosition>
+        <BoardPosition></BoardPosition>
+      </section>
     );
   }
 }

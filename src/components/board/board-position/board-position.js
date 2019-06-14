@@ -5,7 +5,7 @@ class BoardPosition extends Component {
   render() {
     return (
       // <div>{this.props.value}</div>
-      <div class="board-position"> x </div>
+      <div className="board-position"> x </div>
     );
   }
 }
