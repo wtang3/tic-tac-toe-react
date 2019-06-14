@@ -1,0 +1,31 @@
+.board-position {
+  display: flex;
+  justify-content: center;
+  flex: 1 1 33%;
+  height: 12rem;
+  align-items: center;
+}
+
+.board-position:nth-child(odd) {
+  border-bottom: var(--board-line-size) solid var(--quaternary);
+}
+
+.board-position:nth-child(even) {
+  border-bottom: var(--board-line-size) solid var(--quaternary);
+  border-right: var(--board-line-size) solid var(--quaternary);
+  border-left: var(--board-line-size) solid var(--quaternary);
+}
+
+.board-position:nth-child(4) {
+  border-left: none;
+}
+
+.board-position:nth-child(6) {
+  border-right: none;
+}
+
+.board-position:nth-child(7),
+.board-position:nth-child(8),
+.board-position:nth-child(9) {
+  border-bottom: none;
+}
