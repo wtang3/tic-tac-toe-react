@@ -1,5 +1,16 @@
+/* global */
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+}
+
+/* colors */
+:root {
+--primary: #2A3380;
+--secondary: #A1AAFF;
+--tertiary: #5465FF;
+--quaternary: #505580;
+--quinary: #4351CC;
+--white: #ffffff;
 }
