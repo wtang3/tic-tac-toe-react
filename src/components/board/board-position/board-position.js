@@ -3,9 +3,9 @@ import './board-position.css';
 
 class BoardPosition extends Component {
   render() {
+    const piece = this.props.piece.getValue() != null ? this.props.piece.getValue() : '';
     return (
-      // <div>{this.props.value}</div>
-      <div className="board-position"> x </div>
+      <div onClick={this.props.onClick} className="board-position"> {piece} </div>
     );
   }
 }
